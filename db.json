@@ -1,14 +1,48 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "data": {
+      "lotCode": "200339032-0-3-1",
+      "partRev": "268992RS12A0",
+      "pnlCount": 3,
+      "setPerPnl": 4,
+      "pcsPerSet": 6,
+      "setXqty": 2,
+      "setYqty": 2,
+      "pcsXqty": 3,
+      "pcsYqty": 2,
+      "lotDetail": [
+        {
+          "pnlCode": "39992US-3012",
+          "pnlSeqNo": 12,
+          "pnlDetail": [
+            {
+              "setCode": "890222A2SI-01",
+              "setSeqNo": 1,
+              "setDefect": [
+                {
+                  "pcsXseqno": 1,
+                  "pcsYseqno": 1,
+                  "isDefect": 1
+                },
+                {
+                  "pcsXseqno": 2,
+                  "pcsYseqno": 1,
+                  "isDefect": 1
+                }
+              ]
+            },
+            {
+              "setCode": "890222A2SI-02",
+              "setSeqNo": 2,
+              "setDefect": [
+                {
+                  "pcsXseqno": 1,
+                  "pcsYseqno": 2,
+                  "isDefect": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+   }
 }
