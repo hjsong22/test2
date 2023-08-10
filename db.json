@@ -1,52 +1,40 @@
 {
-  "code": 1,
-  "message": "OK",
-  "requestId": "eb4d759b-1e8c-49df-a5f3-ed6b0e7bff20",
-  "serverTime": "2023-08-10 06:21:16",
-  "data": {
-    "lotCode": "200339032-0-3-1",
-    "partRev": "268992RS12A0",
-    "pnlCount": 3,
-    "setPerPnl": 4,
-    "pcsPerSet": 6,
-    "setXqty": 2,
-    "setYqty": 2,
-    "pcsXqty": 3,
-    "pcsYqty": 2,
-    "lotDetail": [
-      {
-        "pnlCode": "39992US-3012",
-        "pnlSeqNo": 12,
-        "pnlDetail": [
-          {
-            "setCode": "890222A2SI-01",
-            "setSeqNo": 1,
-            "setDefect": [
-              {
-                "pcsXseqno": 1,
-                "pcsYseqno": 1,
-                "isDefect": 1
-              },
-              {
-                "pcsXseqno": 2,
-                "pcsYseqno": 1,
-                "isDefect": 1
-              }
-            ]
-          },
-          {
-            "setCode": "890222A2SI-02",
-            "setSeqNo": 2,
-            "setDefect": [
-              {
-                "pcsXseqno": 1,
-                "pcsYseqno": 2,
-                "isDefect": 1
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+"token":"token",
+"clientTime":"2022-03-07 23:00:03",
+"requestId":"5DD1CAFE-49F7-3900-BF44-4AD6865328C8",
+"equId":"T5-A2",
+"worker":"钟爱国",
+"equType":"AOI",
+"data": {
+"setList": [
+{
+"setCode":"890222A2SI-01",
+"setDefect": [
+{
+"pcsXseqno": 1,
+"pcsYseqno": 1,
+"isDefect": 1
+},
+{
+"pcsXseqno": 2,
+"pcsYseqno": 1,
+"isDefect": 1
 }
+]
+},
+{
+"setCode":"890222A2SI-02",
+"setDefect": [
+{
+"pcsXseqno": 1,
+"pcsYseqno": 2,
+"isDefect": 1
+}
+]
+}
+
+]
+
+}
+}
+
